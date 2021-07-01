@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="HealthTrackBETA">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>HealthTrackBETA</title>
+
+
+    </head>
+    <body>
+      <style>
+body {
+  background-image: url('health.jpg');
+}
+</style>
+      <div class="container">
+
+            <header>
+              <img src="9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc" width=30% alt="Logo"><br>
+            </header>
+            <h2>Seu Cadastro</h2><br><br>
+            <form>
+                <div class="form-group">
+                  <label class="control-label" for="nome">Nome completo:</label>
+                  <input type="nome" class="form-control" style="width:400px;" id="nome" placeholder="Digite seu nome completo" autofocus required>
+                </div>
+                <div class="form-group">
+                    <label for="dtnasc">Data de Nascimento</label>
+                    <input type="date" class="form-control" style="width:200px" id="dtnasc" placeholder="Digite a sua data de Nascimento" required><br>
+                </div>
+                <div class="form-group" >
+                    <label for="genero">Gênero:</label>
+                    <select id="genero" name="genero" style="width:136px">
+                      <option value="masculino">Masculino</option>
+                      <option value="feminino">Feminino</option>
+                      <option value="outros">Outros</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="altura">Altura em metros:</label>
+                    <input type="number" style="width:60px" id="altura" name="altura" step="0.010">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="email" class="form-control" style="width:400px" id="email" placeholder="Digite seu email" required>
+                  </div>
+                <div class="form-group">
+                  <label for="pwd">Senha:</label>
+                  <input type="password" class="form-control" style="width:400px" id="pwd" placeholder="Senha de 6 digitos: números e letras" required>
+                </div>
+                <div id="botao" class="row">
+                    <div class="col-sm-4"></div>
+                    <a href="dashboard.html" class="btn btn-primary" style="font-size: 2.5vw">Cadastrar</a>
+                  </div>
+            </form>
+        </div>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap-4.4.1.js"></script>
+    </body>
+</html>
